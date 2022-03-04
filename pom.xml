@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kkj.base</groupId>
-    <artifactId>spring-base</artifactId>
+    <artifactId>mbly-to-spring</artifactId>
     <version>1.0.0</version>
     <name>Spring Base Service</name>
-    <description>Spring Base Service</description>
+    <description>Mbly Convert Spring</description>
     <packaging>jar</packaging>
 
     <properties>
@@ -36,9 +36,8 @@
 
 
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
         <dependency>
